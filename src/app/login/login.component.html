@@ -1,0 +1,52 @@
+<section class="image-container">
+    <div class="register-card">
+      <div class="logo">
+        <img
+          src="https://assets.website-files.com/5d354e03d1cb7ff3ca385b66/5d354e3c6b1d5c2a05239327_logo.svg"
+          alt=""
+        />
+      </div>
+  
+      <form>
+        <div class="login-form">
+          <div class="input-field">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              required
+              [(ngModel)]="email"
+             
+            />
+          </div>
+          <div class="input-field">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+              [(ngModel)]="password"
+            />
+          </div>
+          <div class="but">
+            <button class="signup" (click)="login()">Login</button>
+          </div>
+          <div class="con">
+            <p>
+              By creating an account, you agree and accept our
+              <a href="#  ">Terms</a> and <a href="#">Privacy Policy</a>.
+            </p>
+          </div>
+          <br />
+          <br />
+          <hr />
+          <div class="last">
+            <p>Need account? <a routerLink="/">Sign In</a>.</p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  

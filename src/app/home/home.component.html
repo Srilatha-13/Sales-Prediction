@@ -1,0 +1,44 @@
+<div class="entire-page">
+  <nav class="navbar">
+    <h1 class="head">Future Foresight</h1>
+    <ul>
+      <li>
+        <a href="#">{{username}}</a>
+      </li>
+      <li>
+        <a href="#">Logout</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="cards">
+    <div class="left-card">
+      <div class="header">
+        <h1>Input</h1>
+      </div>
+      <div class="inputs">
+        <label for="file"><b>Insert File</b></label>
+        <input type="file" name="csvFile" accept=".csv" />
+        <label for="prediction"><b>Predicton Type</b></label>
+        <select name="prediction" id="dd1">
+          <option value="select">Sales</option>
+        </select>
+        <label for="timeperiod"><b>Time Period</b></label>
+        <select name="timeperiod" id="dd2">
+          <option value="date">Date</option>
+          <option value="month">month</option>
+          <option value="year">year</option>
+        </select>
+      </div>
+    <button class="but">Submit</button>
+    </div>
+    <div class="right-card">
+      <div class="header">
+        <h1>Result</h1>
+    </div>
+    <div class="result">
+      <p>Enter Input To See Result</p>
+
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,107 @@
+*{
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    background-color: #003366;
+    height: 3.5rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+.head {
+    position: absolute;
+    color: white;
+    padding: 0.8% ;
+    /* width: 100%; */
+    margin-left: 3rem;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
+}
+ul{
+    margin-left: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    margin-right: 50px;
+}
+
+ul li a{
+    color: white;
+    transition: all.2s ease-in;
+    text-decoration: none;
+} 
+
+.cards{
+    width: 92%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin:0 4% ;
+}
+.left-card{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 2%;
+    padding: 2rem 3rem;
+    box-shadow: 0px 10px 30px #00000020;
+}
+.header h1{
+    font-size: 1.8rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.inputs input,
+.inputs select{
+    margin: 10px 0;
+}
+.inputs select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 2px #1e1e1e;
+    outline: none;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px black;
+    background-color: #003366;
+    color: white;
+    border-style: none;
+    padding: 2%;
+    width: 40%;
+    border-radius: 40px;
+    font-size: 1.3rem;
+}
+.right-card{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 2%;
+    padding: 2rem 3rem;
+    box-shadow: 0px 10px 30px #00000020;
+}
